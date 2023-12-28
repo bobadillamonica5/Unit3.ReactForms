@@ -30,9 +30,20 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+#auth-section {
+  border-width: 3px;
+  border-style: solid;
+  border-color: deepskyblue;
+  font-size: 2em;
+  line-height: 2em;
+}
+
+h2 {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #535bf2;
+    font-size: 2em;
+    line-height: 2em;
 }
 
 button {
@@ -46,6 +57,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #646cff;
 }
@@ -63,6 +75,6 @@ button:focus-visible {
     color: #747bff;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #747bff;
   }
 }
